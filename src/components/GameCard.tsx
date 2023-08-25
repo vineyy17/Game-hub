@@ -1,11 +1,11 @@
-import { Card, CardBody, HStack, Heading, Image } from "@chakra-ui/react";
-import { Game } from "../hooks/useGames";
-import PlatformIconList from "./PlatformIconList";
-import CriticScore from "./CriticScore";
-import getCroppedImageUrl from "../services/image-url";
+import { Card, CardBody, HStack, Heading, Image } from '@chakra-ui/react'
+import { Game } from '../hooks/useGames'
+import PlatformIconList from './PlatformIconList'
+import CriticScore from './CriticScore'
+import getCroppedImageUrl from '../services/image-url'
 
 interface Props {
-  game: Game;
+  game: Game
 }
 
 function GameCard({ game }: Props) {
@@ -22,7 +22,7 @@ function GameCard({ game }: Props) {
         </HStack>
       </CardBody>
     </Card>
-  );
+  )
 }
 
-export default GameCard;
+export default GameCard
