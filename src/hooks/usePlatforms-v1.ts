@@ -1,4 +1,4 @@
-import useData from './useData'
+import useData from '../services/api-client'
 
 interface Platform {
   id: number
