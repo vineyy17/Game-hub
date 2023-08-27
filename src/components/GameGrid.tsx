@@ -1,10 +1,10 @@
 import { SimpleGrid, Spinner, Text } from '@chakra-ui/react'
 import { useGames } from '../hooks/useGames'
-import GameCard from './GameCard'
-import GameCardSkeleton from './GameCardSkeleton'
-import GameCardContainer from './GameCardContainer'
-
 import { GameQuery } from '../App'
+import GameCard from './GameCard'
+import GameCardContainer from './GameCardContainer'
+import GameCardSkeleton from './GameCardSkeleton'
+
 import React from 'react'
 import InfiniteScroll from 'react-infinite-scroll-component'
 
@@ -19,7 +19,7 @@ function GameGrid({ gameQuery }: Props) {
     data,
     error,
     isLoading,
-    isFetchingNextPage,
+    // isFetchingNextPage,
     fetchNextPage,
     hasNextPage,
   } = useGames(gameQuery)
