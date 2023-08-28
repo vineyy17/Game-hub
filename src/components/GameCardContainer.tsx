@@ -12,7 +12,6 @@ function GameCardContainer({ children }: Props) {
         transform: 'scale(1.03)',
         transition: 'transform .15s ease-in',
       }}
-      width="100%"
       borderRadius={10}
       overflow="hidden"
     >
