@@ -30,7 +30,9 @@ function HomePage() {
             <Box marginRight={5}>
               <PlatformSelector />
             </Box>
-            <SortSelector />
+            <Box marginRight={5}>
+              <SortSelector />
+            </Box>
           </Flex>
         </Box>
         <GameGrid />
